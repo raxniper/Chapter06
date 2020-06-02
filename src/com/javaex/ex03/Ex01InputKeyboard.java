@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.Scanner;
 
 public class Ex01InputKeyboard {
 
@@ -18,9 +19,10 @@ public class Ex01InputKeyboard {
 		InputStreamReader ir = new InputStreamReader(System.in, "UTF-8");
 		BufferedReader br = new BufferedReader(ir);
 		
-		// Scanner sc = new Scanner(System.in)
-		// String str = sc.nextLine();
-		String str = br.readLine();
+		 Scanner sc = new Scanner(System.in);
+		 String str = sc.nextLine();
+//		String str = br.readLine();
+		 
 		
 		
 //		System.out.println(str);
